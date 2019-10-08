@@ -1,15 +1,15 @@
 import React, { Fragment } from "react"
+import Helmet from "react-helmet"
 import '../styles.css';
 
 export default () => (
-  <html>
-  <head>
-    <meta charSet="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-    <title>R T T N B R G R | 🤢🍔</title>
-  </head>
-  <body>
+  <>
+    <Helmet>
+      <meta charSet="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+      <title>R T T N B R G R | 🤢🍔</title>
+    </Helmet>
     <div className="root">
       <svg
         width="124px"
@@ -44,13 +44,12 @@ export default () => (
         haven&#39;t heard of them sriracha typewriter salvia raw denim chambray.
         Bushwick viral meh trust fund, twee craft beer pour-over flannel celiac
         tbh butcher.
-      </p>
+    </p>
       <ul>
         <li><a href="http://instagram.com/rttnbrgr">Instagram</a></li>
         <li><a href="http://twitter.com/rttnbrgr">Twitter</a></li>
         <li><a href="http://github.com/rttnbrgr">Github</a></li>
       </ul>
     </div>
-  </body>
-  </html>
+  </>
 )
