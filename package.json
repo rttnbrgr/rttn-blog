@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-blog-theme",
+  "name": "rttn-blog",
   "private": true,
   "version": "0.0.1",
   "scripts": {
     "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build"
   },
